@@ -31,6 +31,9 @@ Sample Output 3
 PP
 */
 
+/*
+Example by checking "-".
+
 import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
@@ -40,4 +43,19 @@ public class Main {
           System.out.print(s[i].charAt(0));
 		System.out.println();
 	}
+}
+*/
+
+import java.util.*;
+public class Main   
+{    
+    public static void main(String[] args) {
+      Scanner sc =new Scanner(System.in);
+        String string =sc.next();    
+        String reversedStr = "";        
+        for(int i = 0; i < string.length(); i++){    
+            if(Character.isUpperCase(string.charAt(i)))
+              System.out.print(string.charAt(i)); 
+        }      
+    }    
 }
