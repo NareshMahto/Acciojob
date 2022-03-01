@@ -33,39 +33,18 @@ import java.io.*;
 import java.util.*;
 class Main
 {
-	public static int findMissingTerm(int[] nums)
-	{
-		int left = 0, right = nums.length - 1;
-
-		int diff = (nums[nums.length - 1] - nums[0]) / nums.length;
-		while (left <= right)
-		{
-			int mid = right - (right - left) / 2;
-			if (mid + 1 < nums.length && nums[mid + 1] - nums[mid] != diff) {
-				return nums[mid + 1] - diff;
-			}
-			if (mid - 1 >= 0 && nums[mid] - nums[mid - 1] != diff) {
-				return nums[mid - 1] + diff;
-			}
-			if (nums[mid] - nums[0] != (mid - 0) * diff) {
-				right = mid - 1;
-			}
-
-			else {
-				left = mid + 1;
-			}
-		}
-		return -1;
-	}
-
-	public static void main(String[] args)
+	public static void main (String args[])
 	{
       Scanner sc = new Scanner(System.in);
-		int n=sc.nextInt();
-        int nums[]=new int[n];
-      for(int i=0; i<n; i++){
-        nums[i]=sc.nextInt();
+      int n  = sc.nextInt();
+      int arr[] = new int[n];
+      for (int i=0; i<n; i++){
+        arr[i] = sc.nextInt();
       }
-		System.out.println(findMissingTerm(nums));
+      int d = arr[1]-arr[0];
+      for (int i=0; i<n-1; i++){
+        if ((arr[i+1]-arr[i]) != d)
+          System.out.print(arr[i]+d);
+      }
 	}
 }
