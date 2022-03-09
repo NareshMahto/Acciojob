@@ -1,0 +1,484 @@
+# Data Structures & Algorithms - Lesson Plan
+
+> **We rise by lifting others.**
+> 
+
+This lesson plan is to be followed in the main batch. This doc consists of in-class assignments that you should take up in the class. 
+You do not need to necessarily cover all things in the same lecture as stated in the plan. 
+Its okay if you some topic in the next class (or the one after that). 
+However, be comprehensive while teaching 1 topic and move to the next one only after all key concepts of that topic have been covered. 
+Code on our platform and pass test cases in class so that students understand how to solve on portal. 
+Lectures in the video may sometime start after 1 hour of doubts session, please seek the video accordingly. 
+It may happen that not all key points are covered in the video link shared, please make sure you cover those in your lecture in that case.
+
+Apart from these technical checkboxes, make sure you spend at least 15 mins every week motivating the students. 
+Letting them know that they definitely will get placed if they attend all classes and submit all assignments.
+
+In general, try to be friendly, accepting & patient while answering doubts/ teaching concepts. 
+
+### Lecture 1 - Hello World, Variables & Data Types, Conditionals, Taking Input & functions
+
+- Video link - [https://youtu.be/0avzXeXUep4](https://youtu.be/0avzXeXUep4)
+- Key concepts to be covered -
+    - Your intro and background at the beginning.
+    - What is computer, programming, programming language, algorithms. Why are we using Java.
+    - Printing Hello World **on our platform IDE**.
+    - Difference b/w `System.out.println` & `System.out.print` and how to perform bsic mathematical operations
+    - Java is case sensitive and only exact things work. 
+    Test Cases would match for a question only when your answer is exactly equal to the expected output. 
+    Who them this by changing some things in the in-class assignment.
+    - Various Primary Data Types like int, char, boolean, long, float, double and how to declare and initialize various types of variables. 
+    Use L and f for long and float if defining directly using hard-coded values. 
+    Also tell them that string is a non-primitive data type which we will discuss later.
+    - **DO NOT DISCUSS CLASS/ MAIN/ FUNCTIONS/ STATIC/ VOID/ JDK/ JRE etc or anything even slightly complicated. 
+    Tell them to focus on what is being taught. All things will be covered in due course. Avoid using too much jargon and stick to lay man's language.**
+- In-class problems to be solved -
+    - Welcome To Java
+- Post-Class Homework Problems -
+    - Five Stars
+    - Starry Right Angled Triangle
+- module name - Hello World, Variables & Data Types
+- Video link - [https://youtu.be/g_r22wff89U](https://youtu.be/g_r22wff89U) & [https://youtu.be/lXp8obtXauk](https://youtu.be/lXp8obtXauk)
+- Key concepts to be covered -
+    - Using Scanner to capture data from terminal and saving it in variables 
+    using `nextInt`, `nextLong`, `next`, `nextLine`, `nextDouble`, `nextFloat` and the difference between these. 
+    Just ask them to learn how to initialize a scanner and import util and io packages and do not go into objects etc.
+    - How to give input on AccioJob platform. And how to submit & pass all test cases.
+    - Discuss `if`, `else` and `else if`. Solve an in class assignment using conditionals. 
+    Basic mathematical operators like +,-,/,* (paying attention to / for various numeric data types)
+    - The Modulo operator for finding remainder in Java - `%`
+    - Implicit Type Casting - optional
+    - Basic function syntax, function signature and return type of function in Java (including void). 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    That you cannot execute anything after `return` is executed. And return must happen for all possible inputs if not `void`.
+- In-class problems to be solved -
+    - For taking input - *Java Std in and Std out*
+    - For conditionals - *Number of Days*
+    - Celsius to Fahrenheit
+    - Leap Year
+- Post-Class Homework Problems -
+    - Big Light
+    - Fahrenheit to Celsius
+    - Which Angled Triangle
+- module name - Conditionals, Taking Input & functions
+
+### Lecture 2 - Loops & Arrays & 2D arrays
+
+- Video link - [https://youtu.be/lXp8obtXauk](https://youtu.be/lXp8obtXauk) & [https://youtu.be/_HXx8S-6Mvs](https://youtu.be/_HXx8S-6Mvs)
+- Key concepts to be covered -
+    - Syntax of `for`, `while`, `while do` loops. Solve an in class assignment using loops.
+    - Arrays - declaration with and without values, concept of index, finding length, looping over arrays, assigning a value to a random index
+    - Taking Array as input & Printing array values using loops
+    - Finding max element in array
+- In-class problems to be solved -
+    - Palindrome Number
+    - Sum of Natural Numbers
+
+- Post-Class Homework Problems -
+    - Armstrong Number Finder
+    - Average calculator
+    - Power Up
+    - Array Rotation
+    - Angry Professor
+    - Equality in Array
+    - Divisible Sum Pairs
+    - Next Round
+- module name -  Loops & Arrays
+
+### Lecture 3 - Strings & Time & Space Complexity
+
+- Video link - [https://youtu.be/jnRdc-Wk7hY](https://youtu.be/jnRdc-Wk7hY)
+- Key concepts to be covered -
+    - 2D array initialization with and without values.Fact that datatype of values in 2D Arrays should be same.
+    - Taking 2D array as input & printing 2D array, concept of rows and columns
+    - Thinking of it like array of arrays& Solve in class problems on 2D Arrays.
+    - Intro to Strings - think of strings like an array of chars. Taking strings as input
+    - Common String functions - `charAt`, `replace`, `indexdOf`, `substring` along with their overloads. How char can be converted to int.
+- In-class problems to be solved -
+    - Boolean Matrix Sum
+    - Alt Matrix Sum
+- Post-Class Homework Problems -
+    - X Occurence
+    - Time Conversion
+    - Hey!
+    - Autori
+    - Ptice
+    - Stopwatch
+- module name - 2D Arrays & Strings
+
+### Lecture 4 - More on Functions, Loops, Switch Case & Problem Solving & Time and space complexity
+
+- Video link - [https://youtu.be/89ezQFxX_Ks](https://youtu.be/89ezQFxX_Ks)
+- Key Concepts to be covered -
+    - Why it's important to measure space and time complexity.
+    - Do not go too much into big O, theta or omega, just focus on calculating the number of computations as a function of input size. Can discuss a little theory
+    - Start with simple for and while loops & then nested loops. Calculate for loops with different numbers of steps like i=2*1, i+=3, i<N^2 etc.
+    - Order of betterness in commonly observed complexities - O(1)>O(logn)>O(n)>O(nlogn)>O(n^2)>O(2^n) and so on. Do give the basic graphical logic for large n
+- in-class problems to be solved -
+    - [https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/]
+    (https://www.geeksforgeeks.org/practice-questions-time-complexity-analysis/) - show only question and ask from class and then discuss answer.
+- Post-Class Homework Problems -
+    - second smallest from array
+    - sum of array except self
+    - Dates
+    - Pangrams
+- module name - More arrays & strings
+- Video link - [https://youtu.be/LJESAyipSxs](https://youtu.be/LJESAyipSxs)
+- Key Concepts to be covered -
+    - Discuss `switch` case and where it may be advantageous over if else.
+    - Discuss `break` and `pass` in loops.
+    - Wrapper Classes in Java. These can be used for primitive data types. 
+    And have some methods defined. Importable from utils. - [https://www.javatpoint.com/wrapper-class-in-java](https://www.javatpoint.com/wrapper-class-in-java)
+    - How to use `BufferedReader`. Do not explain much. 
+    Just how you can use it to take inputs and that it is faster than Scanner.
+- in-class problems to be solved -
+    - Two Sum in an Array
+    - Chessboard
+- Post-class problems -
+    - Line them up
+    - Odd array sum
+    - Armstrong Number Finder
+- module name - More on Basics
+
+### Lecture 5 - Intro To Recursion I
+
+- Video link - [https://youtu.be/97vOh3U6AFg](https://youtu.be/97vOh3U6AFg)
+- Key concepts to be covered -
+    - Real Life intuition of recursion
+    - The basic factorial function - highlighting the *base case*.
+    - How the call is taking place printing various interim outputs
+    - Give factorial as a question - give students 5-10 minutes to write this after giving them the definition
+    - `f(x) = f(x-1) + f(x-2); f(0) = 1 & f(1) = 1`
+    - Draw the tree-like structure for how things are getting execute in fibonacci.
+    - Give the GCD relation. So people can try in homework
+- in-class problems to be solved -
+    - Hello Recursion
+    - Fibonacci Series
+- post-class questions -
+    - Sum of natural numbers using recursion
+    - Recursive Digit Sum
+- module name - Intro To Recursion I
+
+### Lecture 6 - Intro to Recursion II
+
+- Video link - [https://youtu.be/cerMSDmj_t8](https://youtu.be/cerMSDmj_t8)
+- Key concepts to be covered -
+    - Revise the previous lecture in first 30 minutes
+    - Discuss few problems from this link - [https://codingbat.com/java/Recursion-1](https://codingbat.com/java/Recursion-1). 
+    Share link with students and ask them to code in class. Give 10 mins for students to solve. Cover 5-6 Problems. start from easier ones at the start. 
+    Explain how to write recurrence first and then write code for them.
+    - Explain Tower of Hanoi Problem. show Animation. Solve and print intermediate steps. Let students know we will revisit recursion later as well.
+- in-class problems:
+    - [https://codingbat.com/java/Recursion-1](https://codingbat.com/java/Recursion-1) - 5,6 problems
+    - Tower of Hanoi
+- post-class problems:
+    - Give basic remaining questions from  [https://codingbat.com/java/Recursion-1](https://codingbat.com/java/Recursion-1)
+    - X-ish word detector
+- module name - Intro to Recursion II
+
+### Lecture 7, 8, 9- Introduction to Sorting | Selection Sort, Insertion Sort, Bubble Sort, Merge Sort, Quick Sort
+
+- Video link - [https://youtu.be/sap-xNj4mlo](https://youtu.be/sap-xNj4mlo) & [https://youtu.be/9vtLVJK2u0U](https://youtu.be/9vtLVJK2u0U)
+- Key concepts to be covered -
+    - Use Animation to explain basic algorithm- [https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html]
+    (https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html) 
+    (or any other link you are more comfortable with. There is a speed control with this one.)
+    - Slides you can use - [https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1206/lectures/sorting]
+    (https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1206/lectures/sorting/) (DO NOT JUST SHOW THE CODE. WRITE IT BY HAND ON OUR IDE)
+    - Do not focus on time and space complexity right now.
+    - In lecture 10 and 11 spend 30 mins revising what was covered last time.
+    - You should spend almost 1.5 lectures on merge and quick sort
+    - In lecture 11, spend 30 minutes or more on explaining all time and space complexities
+- in-class problems -
+    - bubble sort
+    - insertion sort
+    - selection sort
+- post-class problems -
+    - find the median
+    - insertion sort - 2
+    - Largest number from given list.
+- module name - Sorting
+
+### Lecture 10, 11 & 12- Intro to Binary Search
+
+- Video link - [https://youtu.be/9zQR4f-Z5w8](https://youtu.be/9zQR4f-Z5w8) & 
+[https://youtu.be/4ivItaO7Kl0](https://youtu.be/4ivItaO7Kl0) & [https://youtu.be/QPoL--6naAU](https://youtu.be/QPoL--6naAU)
+- Key concepts to be covered -
+    - Linear Search over an array
+    - Show Animation for binary search - [https://www.cs.usfca.edu/~galles/visualization/Search.html]
+    (https://www.cs.usfca.edu/~galles/visualization/Search.html)
+    - Time Complexity of binary search. Both iterative and recursive ways of writing the binary search algo.
+    - How binary search can be extended to solve problems that dont have arrays directly but may have a monotonous series of some form.
+    - Also solve other questions covered in the recording above. From any platform of your choosing.
+- in-class problems -
+    - Searching a Number
+    - Books
+    - Ice Cream Parlor
+- post-class problems -
+    - Floor in a Sorted Array
+    - K-sum
+    - Count 1 in binary array
+    - Min Cut Tree
+    - Search in rotated sorted array
+- module name - Searching I, Searching II
+
+### **Lecture 13 & 14 - Intro To OOP (V IMPORTANT - TAKE AS MUCH TIME AS REQUIRED TO COVER ALL THEORY)**
+
+- Video Link - [https://youtu.be/54EE23cvx4g](https://youtu.be/54EE23cvx4g) && 
+[https://youtu.be/m5VG5un1tUs](https://youtu.be/m5VG5un1tUs) && [https://youtu.be/3pKYu2jH7_Y](https://youtu.be/3pKYu2jH7_Y)
+- Key concepts to be covered -
+    - Cover access modifiers and static etc. focus on small issues like naming class with caps.
+    - **Cover everything taught in videos shared above**
+    - Teach about wrapper classes in Java.
+    - Tell students about bufferedReader usage and how they have been using classes all along.
+    - Create any class of your choosing to explain all concepts heavily coding in real time. 
+    Can use Vehicle class and 4 wheeler and 2 wheeler children then Car, Truck and Bike as their child classes. 
+    Also cover equals method in java for strings and others. 
+    Cover super, etc.
+    - Ask people to revise and read up from gfg as well - 
+    [https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/?ref=lbp]
+    (https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/?ref=lbp). 
+    All topics from sidebar. Make sure you teach all in sidebar as well.
+- no direct problems here. Revise previous issues or theory in doubts class.
+- no module to be shared.
+
+### Lecture 15,16,17 - Intro to Linked Lists
+
+- Video Link - [https://youtu.be/cifmcTcTQTA](https://youtu.be/cifmcTcTQTA) && 
+[https://youtu.be/p0Mrw_a1gCA](https://youtu.be/p0Mrw_a1gCA) && [https://youtu.be/cOSE58f0grw](https://youtu.be/cOSE58f0grw) && 
+[https://youtu.be/e7tqWipRzNg](https://youtu.be/e7tqWipRzNg)
+- Key concepts to be covered —
+    - Implement linked lists by creating a Node class. 
+    Define & implement concept of head  and implement methods for adding element at head and in between,
+    removing element at head and in between, accessing nth element and  compare time and space complexity of these insertion, deletion and access with arrays.
+    - How to define and take input in nodes and creating a LL. Both self-implementing and also using collections in Java.
+    - Implement Circular and Doubly ended LL. Implement insertion, access and deletion in these
+- In-class problems -
+    - Exchange Nodes
+    - Delete the Middle of the Linked List
+    - Add 1 to a number represented as linked list
+    - Insertion in circular linked list
+    - Merge Sort on Doubly Linked List
+- post-class problems -
+    - Print in Reverse
+    - Add two numbers represented by linked lists
+    - Merge Sort for Linked List
+    - Swap Kth nodes from ends
+- module name - Linked Lists I, Linked Lists II
+
+### Lecture 18,19 - Hashing
+
+- Video link - [https://www.youtube.com/watch?v=ELL-my7opUQ](https://www.youtube.com/watch?v=ELL-my7opUQ) && [https://youtu.be/-NlRzwXUuBk](https://youtu.be/-NlRzwXUuBk)
+- Key concepts to be covered -
+    - Theoretical topics like what is an ideal hash function, why hashing, practical uses(in all databases, google etc. ), 
+    linear and quadratic probing, chaining, collisions etc
+    - Questions using Hashset and HashMap, with introducing Treeset and TreeMap as well. Stating that difference is in space and time complexity and ordering.
+- in-class assignments -
+    - FIRST ELEMENT TO OCCUR K TIMES
+    - Count distinct pairs with difference k
+    - SUBARRAY WITH ZERO SUM
+- post-class assignments -
+    - Longest Consecutive Sequence
+    - Longest Sub-Array with Sum K
+    - Odd Even Problem
+    - hashing for Pair
+- module name - Hashing I & Hashing II
+
+---
+
+HIATUS I
+
+---
+
+### Lecture 20,21,22,23,24 - Introduction to Stacks, Queues & Deques (teach them 1 by 1)(STACKS AND QUEUES ARE V IMPORTANT)
+
+- video link - [https://youtu.be/oWMXIizL6dM](https://youtu.be/oWMXIizL6dM) && [https://youtu.be/9YNPH5dSYVQ](https://youtu.be/9YNPH5dSYVQ) && 
+[https://youtu.be/g5KgPgn4NKQ](https://youtu.be/g5KgPgn4NKQ) && [https://youtu.be/nb14NPMeNZI](https://youtu.be/nb14NPMeNZI) && 
+[https://youtu.be/dSQf3ovZnAc](https://youtu.be/dSQf3ovZnAc) && [https://youtu.be/e-bAxNiNHnM](https://youtu.be/e-bAxNiNHnM) && 
+[https://drive.google.com/file/d/1-7yDybyeYOEEbhVd6wumYIft6qa1zyqc/view?usp=sharing]
+(https://drive.google.com/file/d/1-7yDybyeYOEEbhVd6wumYIft6qa1zyqc/view?usp=sharing) & 
+[https://drive.google.com/file/d/1-7yDybyeYOEEbhVd6wumYIft6qa1zyqc/view?usp=sharing](https://drive.google.com/file/d/1-7yDybyeYOEEbhVd6wumYIft6qa1zyqc/view?usp=sharing)
+- Key concepts to be covered -
+    - Basic definition and implementation of stacks and queues using Arrays and linked lists.
+    - Methods for pop, push, size, isEmpty & Initialize and declare using Collections lib. LIFO FIFO definitions.
+    - In stacks, teach them questions like closest larger element. Understanding of this approach needs to be made sure. Lots of companies asking this.
+    - Do puzzles like create a stack using Queues and create a queue using stacks. (teach one and ask other)
+    - Deque you can give an intro and solve any problem you like.
+- In-class problems -
+    - Implement each using arrays and LL.
+    - NEXT GREATER ELEMENT
+    - Infix to Postfix. ** Teach this completely.
+    - First non-repeating character in a stream
+    - Trapping rain water ** on leetcode.
+- post-class problems -
+    - IMMEDIATE SMALLER ELEMENT
+    - Stock Span Problem
+    - Height Problem
+    - PARENTHESIS CHECKER
+    - Subarray Minimum
+    - Longest Valid Parenthesis
+    - Circular tour
+- module name - Stacks & queues I, Stacks & Queues II
+
+### Lecture 25 - 2 Pointers, Prefix Sum,Sliding Window
+
+- Video link - [https://youtu.be/YLaExhzgV6Y](https://youtu.be/YLaExhzgV6Y) && [https://youtu.be/ToXQuoGzI48](https://youtu.be/ToXQuoGzI48)
+- Key concepts to be covered -
+    - Introduce sliding window and 2 pointers as techniques we can use in certain problems to reduce time complexity in linked lists/array questions. 
+    These techniques show how a nested for loop in some problems can be converted to a single for loop to reduce the time complexity.
+    - Solve 2-sum using 2 pointers in class. For sliding window, solve max of k consecutive values - 
+    [https://www.geeksforgeeks.org/window-sliding-technique/](https://www.geeksforgeeks.org/window-sliding-technique/)
+- in-class problems -
+    - 2-sum
+    - max of k values
+- post-class problems -
+    - —more to be added to platform —
+    - [https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1](https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1)
+    - [https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1](https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1)
+    - [https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1](https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
+    - [https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1)
+    - [https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1]
+    (https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1)
+    - [https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)
+- module name - Sliding Window, 2 pointers and prefix sum
+
+### Lecture 26 - Bit Manipulation
+
+- Video link - [https://youtu.be/63fzsmy9I8w](https://youtu.be/63fzsmy9I8w) && [https://youtu.be/OdmAkFda6kE](https://youtu.be/OdmAkFda6kE)
+- Key concepts to be covered:
+    - We want to cover minimal theory and questions in this topic as this is not asked much by our target companies as of now. Try to minimize time spent on this topic. 
+    Cover this much  [https://www.geeksforgeeks.org/all-about-bit-manipulation/](https://www.geeksforgeeks.org/all-about-bit-manipulation/) && 
+    [https://www.geeksforgeeks.org/bitwise-operators-in-java/](https://www.geeksforgeeks.org/bitwise-operators-in-java/)
+- in-class questions -
+    - flipping bits
+    - generate binary numbers
+    - GAME OF XOR
+- post-class assignments -
+    - Swap all odd and even bits
+    - Amy and XOR
+    - flip all odd bits
+    - exceptionally odd
+- module name - Bit Manipulation
+
+**HOW TO GIVE AN INTERVIEW - PROBLEM SOLVING**
+
+JRE, JVM, 5-8, collections in java, lectures - CS, OOP Theory concepts + JRE (2) + SQL (3)
+
+---
+
+HIATUS 2 - 1 week gap
+
+---
+
+### Lecture 27,28,29,30,31 - Intro to Trees theory, Heaps
+
+- Video links - [https://drive.google.com/file/d/1J4uMpfbmCFsIffVCV3HXTesrchkUeHOu/view?usp=sharing]
+(https://drive.google.com/file/d/1J4uMpfbmCFsIffVCV3HXTesrchkUeHOu/view?usp=sharing) & 
+[https://drive.google.com/file/d/1w72-uf8-d9T88Sq7D2tyGdd5-odMHrMe/view?usp=sharing](https://drive.google.com/file/d/1w72-uf8-d9T88Sq7D2tyGdd5-odMHrMe/view?usp=sharing)
+- Key points to be covered -
+    
+    [https://www.cs.cornell.edu/courses/cs2110/2019sp/L12-Trees/L12-Trees.pdf](https://www.cs.cornell.edu/courses/cs2110/2019sp/L12-Trees/L12-Trees.pdf)
+    
+    [https://www.cs.cornell.edu/courses/cs2110/2019sp/L14-Pqueues/cs2110Pqueues.pdf](https://www.cs.cornell.edu/courses/cs2110/2019sp/L14-Pqueues/cs2110Pqueues.pdf)
+    
+    - Intro to Trees, Trees are useful whenever we want to store a heirarchical form of data.
+    - Define - Root, Parent, Leaves, Children, binary trees, n-ary trees, height of a tree, complete binary trees.
+    **We will only discuss the theory of trees in general and questions of only BST. Not other kinds of trees.**
+    - Define - A Heap is a  Tree with following properties.
+    - Cover application of heaps - Heap Sort, Priority Queue.
+        
+        1) It’s a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). 
+        This property of Binary Heap makes them suitable to be stored in an array.
+        
+        2) A Binary Heap is either Min Heap or Max Heap. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. 
+        The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to MinHeap.
+        
+    - Define a heap and priority queues. Define initialization in Java. Define min and max heaps.
+    - Implement array representation of a heap and relationships between parent and child nodes. extractMin(or Max), insert, delete, getMin(or Max). 
+    Building a heap, Heapify etc.
+    - Discuss HeapSort with implementation
+- in-class questions:
+    - QHeap1
+    - K-th largest element in a stream
+    - HeapSort
+    - Find median in a stream
+- post-class questions:
+    - Height of Heap
+    - Jesse And Cookies
+    - Merge K sorted arrays
+- module name - Heaps
+
+### Lecture 32, 33,34,35 - Trees Questions & Binary Search Trees
+
+- Video link - [https://youtu.be/L5RJCzpbSbs](https://youtu.be/L5RJCzpbSbs) , [https://youtu.be/mAJThFKeyYE](https://youtu.be/mAJThFKeyYE) &
+[https://youtu.be/2h5HBPxBGrU](https://youtu.be/2h5HBPxBGrU) & [https://youtu.be/TsqG-IGfZic](https://youtu.be/TsqG-IGfZic) & 
+[https://youtu.be/zz478re7RFE](https://youtu.be/zz478re7RFE)
+- Key pointers to be covered -
+    - Difference between a Binary and a binary search tree. implement a BST, Insert, Delete, Search etc. with time/space complexities
+    - Traversals - creating from and printing out traversals In-order, pre-order and post-order traversals  and 
+    creating back BSTs from them need to be discussed wherever possible.
+    - Discuss what happens when BSTs become unbalanced and how they resemble linked lists in those cases. Discuss time and space complexity for best/worst state BST
+    - Discuss questions for Ancestor, height, max, min etc type basic questions
+- in-class questions:
+    - Tree PreOrder Traversal
+    - Left View of a binary tree
+    - Minimum element in BST
+    - Insert a node in a BST
+    - Inorder Traversal and BST
+- module name - Trees I & Trees II
+
+### Lecture 36,37,38 - Graphs
+
+- Video link - [https://youtu.be/GKwLLvPc_Yo](https://youtu.be/GKwLLvPc_Yo) & 
+[https://youtu.be/FCe5A-VwNZs](https://youtu.be/FCe5A-VwNZs) & [https://drive.google.com/file/d/1Kii3vwq1_AZpo0Ygjqw9fcsoj1Hx1R0x/view?usp=sharing]
+(https://drive.google.com/file/d/1Kii3vwq1_AZpo0Ygjqw9fcsoj1Hx1R0x/view?usp=sharing)
+- Key pointers to be covered -
+    - Just stick to Adjacency list, adjacency matrix. Time and space complexity.
+    - DFS, BFS, their implementation and their 2 questions each.
+    - Dijkstra's algorithm needs to be covered.
+    - **DO NOT go into cycle detection, topological sort, connected components, min spanning tree, Kruskal, Ford Fulkerson etc.**
+- in-class questions -
+    - Implement all questions in modules in class
+    - Also implement - [https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1](https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1)
+- module name - Graphs
+
+### Lecture 39, 40, 41, 42 - Recursion III & Dynamic Programming
+
+- Video link - [https://youtu.be/2BKyEIxhLks](https://youtu.be/2BKyEIxhLks) & [https://youtu.be/o2KS81QL2G4](https://youtu.be/o2KS81QL2G4) &
+[https://youtu.be/nE7zTiN6sRg](https://youtu.be/nE7zTiN6sRg) & [https://youtu.be/6jO_8Xb1i9c](https://youtu.be/6jO_8Xb1i9c)
+- Key Concepts to be covered -
+    - Need to introduce backtracking recursion theory and main 3 questions mentioned below
+    - In DP, introduce tabulation, memoization and only discuss standard basic questions like Knapsack and LIS. **DO NOT GO DEEP INTO THIS TOPIC AND KEEP IT LIGHT**
+- in-class questions:
+    - 3 Backtracking questions - All IP Addresses, Sudoku Solver, nQueens
+    - Knapsack & Coin change problem
+    - LCS
+- module name -Recursion III, Dynamic Programming
+
+INTRODUCE PROJECTS
+
+HOW TO GIVE AN INTERVIEW
+
+---
+
+HIATUS III
