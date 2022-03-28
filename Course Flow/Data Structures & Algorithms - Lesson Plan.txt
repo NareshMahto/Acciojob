@@ -1,5 +1,5 @@
 # Data Structures & Algorithms - Lesson Plan
-
+------------------------------------------------------------------
 > **We rise by lifting others.**
 > 
 
