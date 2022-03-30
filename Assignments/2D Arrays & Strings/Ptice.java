@@ -1,8 +1,10 @@
 /*
 Ptice
-Adrian, Bruno and Goran wanted to join the bird lovers’ club. However, they did not know that all applicants must pass an entrance exam. The exam consists of N questions, each with three possible answers: A, B and C.
+Adrian, Bruno and Goran wanted to join the bird lovers’ club. However, they did not know that all applicants must pass an entrance exam. 
+The exam consists of N questions, each with three possible answers: A, B and C.
 
-Unfortunately, they couldn’t tell a bird from a whale so they are trying to guess the correct answers. Each of the three boys has a theory of what set of answers will work best:
+Unfortunately, they couldn’t tell a bird from a whale so they are trying to guess the correct answers. 
+Each of the three boys has a theory of what set of answers will work best:
 
 Adrian claims that the best sequence is: A, B, C, A, B, C, A, B, C, A, B, C ...
 
