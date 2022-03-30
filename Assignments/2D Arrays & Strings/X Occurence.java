@@ -1,6 +1,7 @@
 /*
 X Occurence
-For a given number N, Consider a table of N X N in which elements at the intersection of ith row and jth column are the product of i and j, i. e i x j. Also given a positive integer X. Your task is to count the number of elements in the table that contain the integer X.
+For a given number N, Consider a table of N X N in which elements at the intersection of ith row and jth column are the product of i and j, i. e i x j. 
+Also given a positive integer X. Your task is to count the number of elements in the table that contain the integer X.
 
 Input User Task: Write a program that takes the integer N and the integer X as parameter.
 
