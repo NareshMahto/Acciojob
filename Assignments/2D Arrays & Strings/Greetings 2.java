@@ -4,7 +4,8 @@ Now that Snapchat and Slingshot are soooo 2018, the teenagers of the world have 
 
 This app has some stricter social rules than previous iterations.
 
-For example, if someone says goodbye using Later!, the other person is expected to reply with Alligator!. You can not keep track of all these social conventions and decide to automate any necessary responses, starting with the most important one: the greetings.
+For example, if someone says goodbye using Later!, the other person is expected to reply with Alligator!. You can not keep track of all these social 
+conventions and decide to automate any necessary responses, starting with the most important one: the greetings.
 
 When your conversational partner opens with he…ey, you have to respond with hee…eey as well, but using twice as many e’s!
 
