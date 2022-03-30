@@ -1,8 +1,10 @@
 /*
 Alt matrix sum
-You are given a chessboard of size N x N, where the top left square is black. Each square contains a value. Find the sum of values of all black square and all white squares.
+You are given a chessboard of size N x N, where the top left square is black. Each square contains a value. Find the sum of values of all black square and all
+white squares.
 
-Remember that in a chessboard black and white squares alternate. Input User task: Input consists on N and the the numbers in the NxN matrix. You need to print out the sum of black squares and then white squares in the next line.
+Remember that in a chessboard black and white squares alternate. Input User task: Input consists on N and the the numbers in the NxN matrix. You need to print
+out the sum of black squares and then white squares in the next line.
 
 Constraints:-
 1 <= N <= 1000
