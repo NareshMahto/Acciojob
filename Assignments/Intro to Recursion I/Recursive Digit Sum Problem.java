@@ -44,7 +44,6 @@ import java.io.*;
 
 public class Main {
     public static void main(String args[]) {
-        //your code here
       Scanner sc = new Scanner(System.in);
       String n = sc.next();
       int k = sc.nextInt();
