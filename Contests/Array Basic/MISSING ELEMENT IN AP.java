@@ -1,5 +1,6 @@
 /*
 MISSING ELEMENT IN AP
+--------------------------------
 Find the missing element from an ordered array arr[], consisting of N elements representing an Arithmetic Progression(AP).
 
 Note: There will always be only one missing element.
